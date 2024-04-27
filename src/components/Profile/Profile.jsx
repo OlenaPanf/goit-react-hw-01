@@ -7,7 +7,7 @@ export default function Profile ({name, tag, location, image, stats: {followers,
                         src={image}
                         alt="User avatar"
                     />
-                    <p>{name}</p>
+                    <p><b>{name}</b></p>
                     <p>@{tag}</p>
                     <p>{location}</p>
                 </div>
@@ -15,15 +15,15 @@ export default function Profile ({name, tag, location, image, stats: {followers,
                 <ul>
                     <li>
                         <span>Followers</span>
-                        <span>{followers}</span>
+                        <span><b>{followers}</b></span>
                     </li>
                     <li>
                         <span>Views</span>
-                        <span>{views}</span>
+                        <span><b>{views}</b></span>
                     </li>
                     <li>
                         <span>Likes</span>
-                        <span>{likes}</span>
+                        <span><b>{likes}</b></span>
                     </li>
                 </ul>
             </div>
