@@ -8,9 +8,9 @@ export default function FriendListItem({
     isOnline === true ? css.online : css.offline
   );
   return (
-<div className={css.container}>
-  <img src={avatar} alt="Avatar" width="48" />
-  <p>{name}</p>
+<div className={css.card}>
+      <img className={css.icon} src={avatar} alt="Avatar" width="48" />
+  <p className={css.text}>{name}</p>
   <p className={accentClass}>{isOnline === true ? "Online" : "Offline"}</p>
 </div>
   );

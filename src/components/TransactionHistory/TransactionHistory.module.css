@@ -1,0 +1,40 @@
+table {
+  width: 80%; /* Ширина таблицы */
+  margin: 40px auto; /* Выставляем таблицу по центру */
+  border-collapse: collapse; /* Убираем пробелы между ячейками */
+}
+
+/* Стилизация заголовков */
+th {
+  width: 33.33%;
+  background-color: rgba(0, 0, 0, 0.879); /* Цвет фона заголовков */
+  color: white;
+  font-size: 24px;
+  padding: 8px; /* Внутренний отступ заголовков */
+  text-align: center; /* Выравнивание текста по левому краю */
+  border: 2px solid black; /* Горизонтальная линия под заголовками */
+}
+
+/* Стилизация ячеек данных */
+td {
+  width: 33.33%;
+  padding: 8px; /* Внутренний отступ ячеек данных */
+  font-size: 24px;
+  color: black;
+  text-align: center; /* Выравнивание текста по левому краю */
+  border: 2px solid black; /* Горизонтальная линия под ячейками данных */
+}
+
+.firstColumn {
+  text-align: left; /* Выравнивание текста по левому краю */
+  text-indent: 32%;
+}
+
+.firstColumn::first-letter {
+  text-transform: uppercase;
+}
+
+/* Альтернативное оформление строк таблицы */
+tr:nth-child(even) {
+  background-color: rgba(128, 128, 128, 0.49); /* Цвет фона для четных строк */
+}
