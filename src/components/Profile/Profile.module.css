@@ -1,1 +1,56 @@
+.container {
+  width: 30%;
+  margin: 40px auto;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.card {
+  padding: 20px 0;
+  font-size: 28px;
+  color: grey;
+}
 
+.nameText {
+  color: black;
+  font-weight: bold;
+}
+
+.icon {
+  display: block;
+  margin: 0 auto;
+  width: 190px;
+  height: 190px;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.879);
+  border-radius: 50%;
+}
+
+.list {
+  padding: 0; /* Убираем внутренний отступ */
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
+
+.item {
+  width: calc(100% / 3);
+  /*float: left;*/
+  padding: 20px 5px;
+  background-color: rgba(128, 128, 128, 0.49);
+  border-top: 2px solid grey;
+  color: black;
+  font-size: 24px;
+}
+
+.item:nth-child(2) {
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+}
+
+.item span {
+  display: block;
+}
+
+.item span:nth-child(2) {
+  font-weight: bold;
+}
