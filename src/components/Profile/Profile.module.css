@@ -15,6 +15,16 @@
   font-weight: bold;
 }
 
+.tagText {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.locationText {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
 .icon {
   display: block;
   margin: 0 auto;
